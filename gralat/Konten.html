@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gralat.com - Konten</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("background.png");
+            background-size: cover;
+            color: #333;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        /* Gaya header, navigasi, dan footer */
+        header, nav, footer {
+            background-color: #6c5ce7; /* Ubah warna background menjadi ungu */
+            padding: 20px;
+            color: #fff; /* Ubah warna teks menjadi putih */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff; /* Ubah warna teks tautan menjadi putih */
+            text-decoration: none;
+        }
+
+        /* Gaya section */
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        section h2 {
+            color: #6c5ce7;
+            margin-bottom: 10px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Animasi */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GRALAT GANK COMMUNITY</h1>
+        <p>Selamat datang di Komunitas Gralat Gank, tempat berkumpulnya para pecinta MASMO</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="gralat.html">Beranda</a></li>
+            <li><a href="Anggota.html">Anggota</a></li>
+            <li><a href="Konten.html">Konten</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Galeri Foto</h2>
+        <div class="gallery">
+            <img src="foto1.jpg" alt="Foto 1">
+            <img src="foto2.jpg" alt="Foto 2">
+            <img src="foto3.jpg" alt="Foto 3">
+            <img src="foto4.jpg" alt="Foto 4">
+            <img src="foto5.jpg" alt="Foto 5">
+            <img src="foto6.jpg" alt="Foto 6">
+        </div>
+    </section>
+
+    <!-- Tambahkan bagian lain (jika ada) -->
+
+    <footer>
+        <p>&copy; 2023 Komunitas Gralat Gank. All rights reserved.</p>
+    </footer>
+</body>
+</html>
